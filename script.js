@@ -106,5 +106,6 @@ function getVal(e) {
   answerBox.children[init].innerText = val
   if(playerAns.match(globalAnswer)){
     alert("correct!")
+    window.location.reload()
   }
 }
