@@ -75,7 +75,7 @@ function startGame() {
   const shuffledWord = shuffelWord(addedTexts);
   console.log(shuffledWord);
 
-  quiz.innerHTML = `<h1>${single.question}</h1>`;
+  quiz.innerHTML = `<h2>${single.question}</h2>`;
   for (var i = 0; i < shuffledWord.length; i++) {
     suggestionBox.innerHTML += `
   <p class='suggestionLetter' onclick='getVal(event)'>${shuffledWord.charAt(i)}</p>
