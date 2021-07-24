@@ -47,7 +47,7 @@ section{
 }
 
 .suggestionLetter{
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: lightgray;
     color: black;
     cursor: pointer;
